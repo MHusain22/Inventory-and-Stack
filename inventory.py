@@ -73,6 +73,7 @@ while(1):
         b= int(input("Enter Quantity to sell: "))
         sell(a,b)
     elif(n==6):
-        sys.exit()
+        # sys.exit()
+        break
 
 
