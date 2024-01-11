@@ -33,12 +33,19 @@
 # print(x.day," ",x.month," ",x.year)
 # print(x.strftime("%A"))
 
-# valid date
-def validDate(year, month, day):
-    countmonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    if year%4==0 and (year%100 != 0 or year%400==0):
-        countmonth[1] = 29
-    return (1 <= month <= 12 and 1 <= day <= countmonth[month])
+# # valid date
+# def validDate(year, month, day):
+#     countmonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+#     if year%4==0 and (year%100 != 0 or year%400==0):
+#         countmonth[1] = 29
+#     return (1 <= month <= 12 and 1 <= day <= countmonth[month])
 
 
-print(str(validDate(2001,13,1)))
+# print(str(validDate(2001,13,1)))
+
+# import calendar as cd
+
+# year = 2024
+# month = 2
+# print(cd.month(year,month))
+ 
