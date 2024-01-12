@@ -1,7 +1,7 @@
 import random
 
 amount = 50000
-list = []
+list = [0,0,0,0,0]
 def withdraw(amount,amt):
     if(amt%100!=0):
         print("Please enter a amount in the Multiple of 100.")
