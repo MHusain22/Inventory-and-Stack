@@ -1,6 +1,7 @@
 MAX_SIZE = 5
 queue = [None] * MAX_SIZE
 front = rear = -1
+print(queue)
 
 def is_empty():
     return front == rear == -1
